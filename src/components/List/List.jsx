@@ -1,3 +1,5 @@
+import * as SC from "./ListStyled"
+
 import EighthItem from "../Items/EighthItem/EighthItem";
 import FifthItem from "../Items/FifthItem/FifthItem";
 import FirstItem from "../Items/FirstItem/FirstItem";
@@ -9,7 +11,7 @@ import ThirdItem from "../Items/ThirdItem/ThirdItem";
 
 const List = () => {
   return (
-    <ul>
+    <SC.ListStyled>
       <FirstItem/>
       <SecondItem/>
       <ThirdItem/>
@@ -18,7 +20,7 @@ const List = () => {
       <SixthItem/>
       <SeventhItem/>
       <EighthItem/>
-    </ul>
+    </SC.ListStyled>
   );
 };
 

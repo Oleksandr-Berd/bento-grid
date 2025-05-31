@@ -6,7 +6,7 @@ padding-bottom: 32px;
 padding-left: 16px;
 padding-right: 16px;
 
-background-color: #7551DC;
+background-color: rgba(117, 81, 220, 0.5);
 color: #fff;
 
 border-radius: 10px;

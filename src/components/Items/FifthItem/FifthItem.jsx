@@ -1,11 +1,15 @@
+import * as SC from "./FifthItemStyled"
+
+import growthChart from "../../../assets/images/growthChart.svg"
+
 const FifthItem = () => {
     return ( 
-        <li>
+        <SC.FifthItemStyled>
             <div>
-                <img src="../../../assets/images/growthChart.svg" alt="growthChart" />
+                <img src={growthChart} alt="growthChart" />
             </div>
             <h3>Grow followers with non-stop content.</h3>
-        </li>
+        </SC.FifthItemStyled>
      );
 }
  

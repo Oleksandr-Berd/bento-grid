@@ -1,12 +1,15 @@
+import * as SC from "./FourthItemStyled"
+
+import chart from "../../../assets/images/chart.svg"
 const FourthItem = () => {
     return ( 
-        <li>
+        <SC.FourthItemStyled>
             <h3>Schedule to social media.</h3>
-            <div>
-                <img src="../../../assets/images/chart.svg" alt="chart" />
-            </div>
+            <SC.Thumb>
+                <img src={chart} alt="chart" />
+            </SC.Thumb>
             <p>Optimize post timings to publish content at the perfect time for your audience.</p>
-        </li>
+        </SC.FourthItemStyled>
      );
 }
  

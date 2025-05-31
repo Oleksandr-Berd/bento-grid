@@ -1,15 +1,19 @@
+import * as SC from "./SixthItemStyled"
+
+import avatars from "../../../assets/images/avatars.svg"
+
 const SixthItem = () => {
 
 const content = ">56%"
 
     return ( 
-        <li>
+        <SC.SixthItemStyled>
             <h3>{content}</h3>
             <p>faster audience growth</p>
             <div>
-                <img src="../../../assets/images/avatars.svg" alt="avatars" />
+                <img src={avatars} alt="avatars" />
             </div>
-        </li>
+        </SC.SixthItemStyled>
      );
 }
  

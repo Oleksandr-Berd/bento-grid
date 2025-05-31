@@ -1,11 +1,15 @@
+import * as SC from "./EighthItemStyled"
+
+import chat from "../../../assets/images/chat.svg"
+
 const EighthItem = () => {
   return (
-    <li>
+    <SC.EighthItemStyled>
       <h3>Write your content using AI.</h3>
       <div>
-        <img src="../../../assets/images/chat.svg" alt="chat" />
+        <img src={chat} alt="chat" />
       </div>
-    </li>
+    </SC.EighthItemStyled>
   );
 };
 

@@ -8,6 +8,13 @@
   padding-right: 16px;
 
   text-align: center;
+
+  @media (max-width:768px){
+    padding-top: 52px;
+    padding-bottom: 76px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .logo {

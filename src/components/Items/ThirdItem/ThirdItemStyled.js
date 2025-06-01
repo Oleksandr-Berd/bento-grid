@@ -9,6 +9,12 @@ export const ThirdItemStyled = styled.li`
 
   border-radius: 10px;
 
+  @media (min-width: 768px){
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
   & > h3 {
     margin-bottom: 16px;
 
@@ -19,6 +25,10 @@ export const ThirdItemStyled = styled.li`
     line-height: 0.9;
 
     color: #000;
+
+    @media (min-width: 768px){
+        font-size: 28px;
+    }
   }
 `;
 

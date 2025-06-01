@@ -27,6 +27,11 @@ border-radius: 10px;
     text-align: left;
   }
 
+ @media (min-width: 1280px){
+ grid-column: 3/5;
+ grid-row: 4;
+}
+
 & > h3{
     font-size: 32px;
     line-height: 0.9;

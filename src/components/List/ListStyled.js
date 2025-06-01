@@ -10,6 +10,13 @@ grid-template-rows: auto auto;
 gap: 32px;
 }
 
+@media (min-width: 1280px){
+  /* grid-auto-flow:dense; */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
 &>li:not(:last-of-type){
     margin-bottom: 32px;
 

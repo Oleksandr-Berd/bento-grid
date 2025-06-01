@@ -21,6 +21,11 @@ export const SecondItemStyled = styled.li`
     overflow: hidden;
   }
 
+  @media (min-width: 1280px){
+   grid-column: 2;
+   grid-row: 2;
+  }
+
   & > h3 {
     font-size: 26px;
     line-height: 0.9;

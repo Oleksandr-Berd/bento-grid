@@ -13,6 +13,11 @@ export const EighthItemStyled = styled.li`
 
   border-radius: 10px;
 
+  @media (min-width: 1280px){
+   grid-column: 1/2;
+   grid-row: 3/4;
+  }
+
   & > h3 {
     margin-bottom: 24px;
 

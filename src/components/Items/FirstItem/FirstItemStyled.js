@@ -19,6 +19,10 @@ export const FirstItemStyled = styled.li`
     padding-right: 76px;
   }
 
+  @media (min-width: 1280px) {
+    grid-column: 2/4;
+  }
+
   & h3 {
     margin-bottom: 24px;
 

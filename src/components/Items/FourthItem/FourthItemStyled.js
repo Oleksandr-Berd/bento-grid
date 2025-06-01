@@ -18,6 +18,11 @@ export const FourthItemStyled = styled.li`
     padding-right: 0;
   }
 
+  @media (min-width: 1280px){
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
   & > h3 {
     margin-bottom: 24px;
 

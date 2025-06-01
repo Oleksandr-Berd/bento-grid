@@ -12,7 +12,7 @@ export const SixthItemStyled = styled.li`
 
   border-radius: 10px;
 
-@media (min-width: 768px){
+  @media (min-width: 768px) {
     grid-column: 1/-1;
 
     display: flex;
@@ -21,9 +21,9 @@ export const SixthItemStyled = styled.li`
     justify-content: space-between;
 
     padding-right: 24px;
-}
+  }
 
-  &  h3 {
+  & h3 {
     margin-bottom: 16px;
 
     font-size: 46px;
@@ -31,12 +31,17 @@ export const SixthItemStyled = styled.li`
     letter-spacing: -4%;
     line-height: 0.9;
 
-    @media (min-width: 768px){
-        font-size: 54px;
+    @media (min-width: 768px) {
+      font-size: 54px;
+    }
+
+    @media (min-width: 1280px) {
+     grid-column: 2/3;
+     grid-row: 4;
     }
   }
 
-  &  p {
+  & p {
     margin-bottom: 24px;
 
     font-size: 14px;
@@ -45,8 +50,8 @@ export const SixthItemStyled = styled.li`
 
     opacity: 0.5;
 
-    @media (min-width: 768px){
-        font-size: 18px;
+    @media (min-width: 768px) {
+      font-size: 18px;
     }
   }
 `;

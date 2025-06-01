@@ -32,6 +32,11 @@ export const SeventhItemStyled = styled.li`
       font-size: 36px;
     }
 
+    @media (min-width: 1280px) {
+    grid-column: 1/2;
+    grid-row: 1;
+    }
+
     & > span {
       font-style: italic;
 

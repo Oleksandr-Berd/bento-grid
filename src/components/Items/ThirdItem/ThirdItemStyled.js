@@ -15,6 +15,11 @@ export const ThirdItemStyled = styled.li`
     padding-right: 24px;
   }
 
+  @media (min-width: 1280px){
+  grid-column: 3;
+  grid-row: 2;
+  }
+
   & > h3 {
     margin-bottom: 16px;
 

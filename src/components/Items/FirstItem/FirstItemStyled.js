@@ -10,6 +10,13 @@ export const FirstItemStyled = styled.li`
 
   border-radius: 10px;
 
+@media (min-width: 768px){
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 76px;
+    padding-right: 76px;
+}
+
   & h3 {
     margin-bottom: 24px;
 
@@ -19,6 +26,10 @@ export const FirstItemStyled = styled.li`
     letter-spacing: -4%;
 
     color: #ffffff;
+
+@media (min-width: 768px){
+    font-size: 54px;
+}
 
     & > span:first-of-type {
       color: #ffcc6a;

@@ -13,6 +13,13 @@ export const SeventhItemStyled = styled.li`
 
   border-radius: 10px;
 
+  @media (min-width: 768px) {
+    padding-top: 76px;
+    padding-bottom: 76px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
   & > h3 {
     margin-bottom: 24px;
 
@@ -20,6 +27,10 @@ export const SeventhItemStyled = styled.li`
     font-weight: 500;
     line-height: 0.9;
     letter-spacing: -6%;
+
+    @media (min-width: 768px) {
+      font-size: 36px;
+    }
 
     & > span {
       font-style: italic;
@@ -29,7 +40,7 @@ export const SeventhItemStyled = styled.li`
   }
 
   & > button {
-position: relative;
+    position: relative;
 
     width: 190px;
 
@@ -59,22 +70,21 @@ position: relative;
       vertical-align: middle;
     }
 
-&::before {
-position: absolute;
+    &::before {
+      position: absolute;
 
-bottom: 0;
-left: 50%;
+      bottom: 0;
+      left: 50%;
 
-transform: translate(-50%, 80%);
+      transform: translate(-50%, 80%);
 
-  content: '';
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M24.7421%200.391827L2.16614%209.07487C0.0571012%209.88604%200.470127%2012.9854%202.71799%2013.2159L13.1629%2014.2872C14.092%2014.3825%2014.853%2015.0673%2015.0454%2015.9813L17.1697%2026.0717C17.6351%2028.2822%2020.7594%2028.3681%2021.3456%2026.1865L27.5872%202.95363C28.0429%201.25764%2026.3811%20-0.238585%2024.7421%200.391827Z%22%20fill%3D%22%231C1C1C%22/%3E%3C/svg%3E");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-     
+      content: "";
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M24.7421%200.391827L2.16614%209.07487C0.0571012%209.88604%200.470127%2012.9854%202.71799%2013.2159L13.1629%2014.2872C14.092%2014.3825%2014.853%2015.0673%2015.0454%2015.9813L17.1697%2026.0717C17.6351%2028.2822%2020.7594%2028.3681%2021.3456%2026.1865L27.5872%202.95363C28.0429%201.25764%2026.3811%20-0.238585%2024.7421%200.391827Z%22%20fill%3D%22%231C1C1C%22/%3E%3C/svg%3E");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
 `;

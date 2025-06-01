@@ -5,9 +5,9 @@ import growthChart from "../../../assets/images/growthChart.svg"
 const FifthItem = () => {
     return ( 
         <SC.FifthItemStyled>
-            <div>
+            <SC.Thumb>
                 <img src={growthChart} alt="growthChart" />
-            </div>
+            </SC.Thumb>
             <h3>Grow followers with non-stop content.</h3>
         </SC.FifthItemStyled>
      );

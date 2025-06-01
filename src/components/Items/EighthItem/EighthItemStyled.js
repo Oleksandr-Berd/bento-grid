@@ -19,5 +19,9 @@ export const EighthItemStyled = styled.li`
     font-size: 32px;
     line-height: 0.9;
     font-weight: 500;
+
+    @media (min-width: 768px){
+        font-size: 36px;
+    }
   }
 `;
